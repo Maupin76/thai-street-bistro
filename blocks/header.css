@@ -1,0 +1,73 @@
+.header {
+  width: 100%;
+  max-width: 1180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.header__logo-link {
+  display: block;
+}
+
+.header__logo {
+  width: 310px;
+  max-width: 48vw;
+  display: block;
+}
+
+.header__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.header__phone {
+  margin: 0;
+  color: var(--gold);
+  font-family: Italiana, Georgia, serif;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.header__order-button {
+  min-width: 132px;
+  padding: 8px 18px;
+  background-color: var(--gold);
+  color: var(--black);
+  border-radius: 5px;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 15px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header__order-button:hover {
+  opacity: 0.86;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .header__logo {
+    width: 270px;
+    max-width: 86vw;
+  }
+
+  .header__phone {
+    font-size: 24px;
+  }
+
+  .header__order-button {
+    font-size: 14px;
+  }
+}

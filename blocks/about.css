@@ -1,0 +1,75 @@
+.about {
+  padding: 86px 7%;
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  background:
+    linear-gradient(rgba(5, 5, 5, 0.86), rgba(5, 5, 5, 0.9)),
+    url("../images/hero-thai-street-bistro.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.about__title {
+  margin: 0;
+  color: var(--gold);
+  font-size: 56px;
+  position: relative;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.about__title::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 3px;
+  background-color: var(--gold);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about__content {
+  display: flex;
+  justify-content: center;
+  max-width: 1180px;
+  gap: 30px;
+  margin: 58px auto 0;
+}
+
+.about__block {
+  flex: 1;
+  max-width: 400px;
+  box-sizing: border-box;
+  padding: 30px;
+  background-color: rgba(91, 15, 22, 0.82);
+  border: 1px solid rgba(212, 175, 55, 0.38);
+  text-align: center;
+}
+
+.about__subtitle {
+  margin: 0 0 18px;
+  color: var(--gold);
+  font-size: 25px;
+}
+
+.about__text {
+  margin: 0;
+  text-align: left;
+  font-family: "Fjalla One", sans-serif;
+  color: var(--cream);
+  font-size: 19px;
+  line-height: 1.55;
+}
+
+@media (max-width: 900px) {
+  .about__content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about__block {
+    max-width: none;
+  }
+}

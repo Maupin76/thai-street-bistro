@@ -1,0 +1,121 @@
+.menu {
+  padding: 86px 7%;
+  background-color: rgb(209, 203, 203);
+  color: var(--black);
+}
+
+.menu__title {
+  margin: 0;
+  font-size: 56px;
+  font-family: "Fjalla One", sans-serif;
+  color: var(--burgundy);
+  position: relative;
+  padding-bottom: 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.menu__title::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 3px;
+  background-color: var(--gold);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.menu__note,
+.menu__disclaimer {
+  text-align: center;
+  font-family: "PT Sans", Arial, sans-serif;
+}
+
+.menu__note {
+  margin: 36px auto 0;
+  max-width: 900px;
+  font-size: 18px;
+}
+
+.menu__disclaimer {
+  margin-top: 48px;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.menu__group {
+  margin-top: 58px;
+}
+
+.menu__subtitle {
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 38px;
+  color: var(--burgundy);
+  text-transform: uppercase;
+}
+
+.menu__grid {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 54px 46px;
+}
+
+.menu__item {
+  padding: 24px;
+  background-color: var(--white);
+  border: 1px solid rgba(91, 15, 22, 0.14);
+  border-radius: 14px;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.menu__item:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.15);
+}
+
+.menu__image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid rgba(212, 175, 55, 0.45);
+}
+
+.menu__item-title {
+  margin: 22px 0 12px;
+  color: var(--black);
+  font-size: 24px;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.menu__price,
+.menu__description {
+  font-family: "PT Sans", Arial, sans-serif;
+}
+
+.menu__price {
+  color: var(--burgundy);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.menu__description {
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .menu__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .menu__image {
+    border-radius: 14px;
+  }
+}

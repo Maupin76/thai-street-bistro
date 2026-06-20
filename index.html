@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Thai Street Bistro by Siri serves authentic Thai street food in Mountain Home, Idaho with fresh ingredients, bold flavors, and family recipes."
+    />
+    <meta
+      name="keywords"
+      content="Thai Street Bistro, Thai food Mountain Home Idaho, Thai restaurant, Thai street food, Thai food truck, Pad Thai, Thai curry, Drunken Noodles"
+    />
+    <meta name="author" content="Douglas A. Maupin" />
+
+    <title>Thai Street Bistro by Siri</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="nav__bar">
+      <header class="header">
+        <a
+          class="header__logo-link"
+          href="#home"
+          aria-label="Thai Street Bistro home"
+        >
+          <img
+            class="header__logo"
+            src="./images/logo-thai-street-bistro.png"
+            alt="Thai Street Bistro by Siri logo"
+          />
+        </a>
+        <div class="header__actions">
+          <p class="header__phone">208.971.7946</p>
+          <a
+            class="header__order-button"
+            href="https://order.toasttab.com/online/thai-street-bistro-llc-165-n-11th-st"
+            >Order Now</a
+          >
+        </div>
+      </header>
+
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav__menu">
+          <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
+          <li class="nav__item"><a class="nav__link" href="#menu">Menu</a></li>
+          <li class="nav__item">
+            <a class="nav__link" href="#about">Our Story</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#catering">Catering</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero__content">
+          <img
+            class="hero__logo"
+            src="./images/logo-thai-street-bistro.png"
+            alt="Thai Street Bistro by Siri"
+          />
+          <p class="hero__location">Mountain Home, Idaho</p>
+          <h1 class="hero__heading">Authentic Thai Street Food</h1>
+          <p class="hero__subtext">
+            Fresh ingredients, bold flavors, and family recipes crafted daily by
+            Siri.
+          </p>
+          <a
+            href="https://order.toasttab.com/online/thai-street-bistro-llc-165-n-11th-st"
+            class="hero__button hero__button_type_order"
+            >Order Online</a
+          >
+          <a href="#menu" class="hero__button hero__button_type_schedule"
+            >View Menu</a
+          >
+        </div>
+      </section>
+
+      <section class="intro">
+        <p class="intro__text">
+          Thai Street Bistro brings the flavor of Thai street cooking to a
+          modern bistro setting with wok-fired dishes, warm hospitality, and
+          fresh-made favorites.
+        </p>
+      </section>
+
+      <section class="menu" id="menu">
+        <h2 class="menu__title">Menu</h2>
+        <p class="menu__note">
+          Protein Prices: Chicken - $11.99, Pork - $11.99, Beef - $13.99, Shrimp
+          - $13.99, Crispy Pork - $13.99
+        </p>
+
+        <div class="menu__group menu__group_type_main">
+          <h3 class="menu__subtitle">Main Dishes</h3>
+          <div class="menu__grid" id="main-dishes"></div>
+        </div>
+
+        <div class="menu__group menu__group_type_soups">
+          <h3 class="menu__subtitle">Soups & Salads</h3>
+          <div class="menu__grid" id="soups"></div>
+        </div>
+
+        <div class="menu__group menu__group_type_sides">
+          <h3 class="menu__subtitle">Sides</h3>
+          <div class="menu__grid" id="sides"></div>
+        </div>
+
+        <p class="menu__disclaimer">
+          Menu subject to change based on ingredient availability.
+        </p>
+      </section>
+
+      <section class="about" id="about">
+        <h2 class="about__title">Our Story</h2>
+        <div class="about__content">
+          <div class="about__block about__block_type_chef">
+            <h4 class="about__subtitle">Chef Siri</h4>
+            <p class="about__text">
+              Siri is a seasoned Thai cook with a lifelong passion for creating
+              delicious and authentic dishes. She first discovered her love for
+              cooking at the age of 10 and has been honing her skills ever
+              since. Thai Street Bistro by Siri continues that tradition with
+              fresh food, bold seasoning, and authentic Thai flavor.
+            </p>
+          </div>
+
+          <div class="about__block about__block_type_food">
+            <h4 class="about__subtitle">Fresh Thai Food</h4>
+            <p class="about__text">
+              Our food is made fresh to order with the flavors of Thailand. From
+              Pad Thai and curry to Pad Krapow and Drunken Noodles, every dish
+              is prepared with care and served with warm hospitality.
+            </p>
+          </div>
+
+          <div class="about__block about__block_type_events" id="catering">
+            <h4 class="about__subtitle">Events & Catering</h4>
+            <p class="about__text">
+              Ask us about catering, private events, local gatherings, and
+              business lunches. Availability may vary, so contact us for
+              details.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="contact__info">
+          <h2 class="contact__title">Visit Us</h2>
+          <p class="contact__subtitle">Thai Street Bistro by Siri</p>
+          <p class="contact__text">
+            Fresh Thai street food served in Mountain Home, Idaho.
+          </p>
+          <p class="contact__location">
+            Thai Street Bistro<br />
+            165 N 11th E St<br />
+            Mountain Home, ID 83647<br />
+            208.971.7946
+          </p>
+
+          <a class="contact__button" href="tel:12089717946">Call Us</a>
+
+          <div class="contact__socials">
+            <a
+              class="contact__social-link"
+              href="https://www.instagram.com/siristhaistreetbistro/"
+              target="_blank"
+              rel="noopener"
+              >Instagram</a
+            >
+            <a
+              class="contact__social-link"
+              href="#"
+              aria-label="Facebook page will be updated soon"
+              >Facebook coming soon</a
+            >
+          </div>
+        </div>
+
+        <div class="contact__map">
+          <iframe
+            class="contact__iframe"
+            title="Thai Street Bistro location map"
+            src="https://www.google.com/maps?q=165%20N%2011th%20E%20St%20Mountain%20Home%20ID%2083647&output=embed"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">
+        © 2026 Thai Street Bistro by Siri. All rights reserved.
+      </p>
+    </footer>
+
+    <script src="./scripts/script.js" type="module"></script>
+  </body>
+</html>

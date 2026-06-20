@@ -1,0 +1,37 @@
+@import url('../vendor/normalize.css');
+@import url('../blocks/header.css');
+@import url('../blocks/nav.css');
+@import url('../blocks/hero.css');
+@import url('../blocks/menu.css');
+@import url('../blocks/about.css');
+@import url('../blocks/contact.css');
+@import url('../blocks/footer.css');
+
+:root {
+  --burgundy: #5b0f16;
+  --dark-burgundy: #3a080d;
+  --black: #050505;
+  --charcoal: #171717;
+  --gold: #d4af37;
+  --soft-gold: #c9a227;
+  --cream: #f5f1e8;
+  --white: #ffffff;
+  --muted: #cfc7b8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--cream);
+}
+
+a {
+  color: inherit;
+}
