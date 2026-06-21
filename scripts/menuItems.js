@@ -169,7 +169,7 @@ export const menuItems = [
   },
   {
     title: "Kai Palo",
-    price: "$13.99 - $15.99",
+    price: "$13.99",
     description:
       "Hard Boiled Eggs, Pork Belly, Five-spice powder, cinnamon, star anise, Garlic, Palm Sugar, soy sauce, and Thai seasonings.",
     image: "./images/BrownSoup.jpg",
@@ -178,7 +178,7 @@ export const menuItems = [
   },
   {
     title: "Thai Papaya Salad (Som Tum)",
-    price: "$13.99",
+    price: "$9.99",
     description: "Update Description: Ingredients...",
     image: "./images/SomTum1.jpg",
     alt: "Som Tum Image",
@@ -186,7 +186,7 @@ export const menuItems = [
   },
   {
     title: "Lao Papaya Salad (Som Tum)",
-    price: "$13.99",
+    price: "$9.99",
     description: "Update Description: Ingredients...",
     image: "./images/ThaiSomTum.jpg",
     alt: "Som Tum Image",
@@ -210,7 +210,7 @@ export const menuItems = [
   },
   {
     title: "Sticky Rice with Mango",
-    price: "$14.99",
+    price: "$8.99",
     description: "Sticky Rice, Sweetened Coconut Milk, Sesame Seeds, Mango",
     image: "./images/StickyRiceMango.jpg",
     alt: "Sticky Rice with Mango Image",
@@ -218,7 +218,7 @@ export const menuItems = [
   },
   {
     title: "Egg Rolls",
-    price: "3 for $6.00",
+    price: "4 for $4.99",
     description:
       "Egg Roll Wrapping, Pork, Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with In-house made dipping sauce",
     image: "./images/eggRoll2.jpg",
@@ -227,7 +227,7 @@ export const menuItems = [
   },
   {
     title: "Spring Rolls",
-    price: "3 for $6.00",
+    price: "4 for $4.99",
     description:
       "Spring Roll Wrapping,Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with In-house made dipping sauce",
     image: "./images/springRoll2.jpg",
@@ -254,7 +254,7 @@ export const menuItems = [
   },
   {
     title: "Crispy Spring Rolls",
-    price: "3 for $6.00",
+    price: "4 for $4.99",
     description:
       " Fresh roll wrapping (deep-fried), Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with in-house-made dipping sauce",
     image: "./images/CrispySpringRoll.jpg",
@@ -263,7 +263,7 @@ export const menuItems = [
   },
   {
     title: "Pork Meat Skewers (Moo Ping)",
-    price: "3 for $6.00",
+    price: "3 for $9.99",
     description: "Sliced Pork, Thai Seasoning, and sauces.",
     image: "./images/PorkMeatSkewers.png",
     alt: "Pork Meat Skewers image",
@@ -271,7 +271,7 @@ export const menuItems = [
   },
   {
     title: "Crab Rangoon",
-    price: "3 for $6.00",
+    price: "6 for $4.99",
     description:
       "Egg Roll Wrapping, Cream Cheese, and Imitation Crab with sweet-and-sour dipping sauce.",
     image: "./images/CrabRangoon.jpg",
@@ -280,7 +280,7 @@ export const menuItems = [
   },
   {
     title: "Deep Fried Tofu",
-    price: "3 for $6.00",
+    price: "6 for $5.99",
     description:
       "Egg Roll Wrapping, Cream Cheese, and Imitation Crab with sweet-and-sour dipping sauce.",
     image: "./images/DeepFriedTofu.jpg",
