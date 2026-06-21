@@ -221,7 +221,7 @@ export const menuItems = [
     price: "4 for $4.99",
     description:
       "Egg Roll Wrapping, Pork, Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with In-house made dipping sauce",
-    image: "./images/eggRoll2.jpg",
+    image: "./images/EggRoll2.jpg",
     alt: "Egg Rolls image",
     category: "sides",
   },
@@ -230,7 +230,7 @@ export const menuItems = [
     price: "4 for $4.99",
     description:
       "Spring Roll Wrapping,Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with In-house made dipping sauce",
-    image: "./images/springRoll2.jpg",
+    image: "./images/SpringRoll2.jpg",
     alt: "Spring Rolls image",
     category: "sides",
   },
@@ -283,7 +283,7 @@ export const menuItems = [
     price: "6 for $5.99",
     description:
       "Egg Roll Wrapping, Cream Cheese, and Imitation Crab with sweet-and-sour dipping sauce.",
-    image: "./images/DeepFriedTofu.jpg",
+    image: "./images/DeepfriedTofu.jpg",
     alt: "Deep Fried Tofu image",
     category: "sides",
   },
