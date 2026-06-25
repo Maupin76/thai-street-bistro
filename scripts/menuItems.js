@@ -258,7 +258,7 @@ export const menuItems = [
     title: "Crispy Spring Rolls",
     price: "4 for $4.99",
     description:
-      "4 for $4.99 - Rice Paper Wrapping (deep-fried), Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with in-house-made dipping peanut sauce",
+      "Rice Paper Wrapping (deep-fried), Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with in-house-made dipping peanut sauce",
     image: "./images/CrispySpringRoll.jpg",
     alt: "Crispy Spring Rolls image",
     category: "sides",
@@ -266,7 +266,7 @@ export const menuItems = [
   {
     title: "Pork Meat Skewers (Moo Ping)",
     price: "3 for $9.99",
-    description: "Sliced Pork, Thai Seasoning, and sauces.",
+    description: "Pork with Jasmine white rice, In-house Sauce, Seasoning",
     image: "./images/PorkMeatSkewers.png",
     alt: "Pork Meat Skewers image",
     category: "sides",
@@ -275,7 +275,7 @@ export const menuItems = [
     title: "Crab Rangoon",
     price: "6 for $4.99",
     description:
-      "6 for $4.99 - Egg Roll Wrapping, Cream Cheese, and Imitation Crab with sweet-and-sour dipping sauce.",
+      "Egg Roll Wrapping, Cream Cheese, and Imitation Crab with sweet-and-sour dipping sauce.",
     image: "./images/CrabRangoon.jpg",
     alt: "Crab Rangoon image",
     category: "sides",
@@ -283,10 +283,42 @@ export const menuItems = [
   {
     title: "Deep Fried Tofu",
     price: "6 for $5.99",
-    description:
-      "6 for $5.99 - Deep-fried Tofu with sweet-and-sour dipping sauce.",
+    description: "Deep-fried Tofu with sweet-and-sour dipping sauce.",
     image: "./images/DeepfriedTofu.jpg",
     alt: "Deep Fried Tofu image",
     category: "sides",
   },
+  {
+    title: "Thai Tea",
+    price: "$4.99",
+    description: "Thai Tea, Whipped Cream on top, and Boba (optional).",
+    image: "./images/ThaiTea.png",
+    alt: "Photo of Boba Drinks",
+    category: "drinks",
+  },
+  {
+    title: "Thai Green Tea",
+    price: "$4.99",
+    description: "Thai Green Tea, Whipped Cream on top, and Boba (optional).",
+    image: "./images/ThaiGreenTea.png",
+    alt: "Photo of Boba Drinks",
+    category: "drinks",
+  },
+  {
+    title: "Taro Milk Tea",
+    price: "$4.99",
+    description: "Taro Milk Tea, Whipped Cream on top, and Boba (optional).",
+    image: "./images/TaroMilkTea.png",
+    alt: "Photo of Boba Drinks",
+    category: "drinks",
+  },
+  // {
+  //   title: "",
+  //   price: "",
+  //   description:
+  //     "",
+  //   image: "",
+  //   alt: "",
+  //   category: "",
+  // },
 ];
