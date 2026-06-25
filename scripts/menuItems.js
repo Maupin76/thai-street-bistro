@@ -224,7 +224,7 @@ export const menuItems = [
     title: "Egg Rolls",
     price: "4 for $4.99",
     description:
-      "4 for $4.99 - Pork, Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with in-house-made dipping peanut sauce",
+      "Pork, Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with in-house-made dipping peanut sauce",
     image: "./images/EggRoll2.jpg",
     alt: "Egg Rolls image",
     category: "sides",
@@ -233,7 +233,7 @@ export const menuItems = [
     title: "Spring Rolls",
     price: "4 for $4.99",
     description:
-      " 4 for $4.99 - Spring roll wrapping, Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with in-house-made dipping peanut sauce",
+      "Spring roll wrapping, Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with in-house-made dipping peanut sauce",
     image: "./images/SpringRoll2.jpg",
     alt: "Spring Rolls image",
     category: "sides",
