@@ -312,6 +312,14 @@ export const menuItems = [
     alt: "Photo of Boba Drinks",
     category: "drinks",
   },
+  {
+    title: "Thai Coffee",
+    price: "$4.99",
+    description: "Thai Coffee, Whipped Cream on top(optional).",
+    image: "./images/ThaiCoffee.png",
+    alt: "Photo of Thai Coffee",
+    category: "drinks",
+  },
   // {
   //   title: "",
   //   price: "",
