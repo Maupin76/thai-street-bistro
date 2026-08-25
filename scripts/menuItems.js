@@ -135,7 +135,7 @@ export const menuItems = [
     title: "Tom Yum",
     price: "$13.99 - $15.99",
     description:
-      "Chicken, Shrimp or Tofu, Coconut Milk, Tomato, Lemon leaf, Thai Pepper",
+      "Chicken, Shrimp or Tofu, Coconut Milk, Tomato, Lemon leaf, Thai Pepper, cup of Jasmine Rice",
     image: "./images/tomYum.webp",
     alt: "Tom Yum Soup",
     category: "soups",
@@ -153,7 +153,7 @@ export const menuItems = [
     title: "Tom Kha Gai",
     price: "$13.99",
     description:
-      "Chicken, Coconut Milk, Lemon Leaf, Tomato, Mushroom, Thai Pepper, Thai seasoning",
+      "Chicken, Coconut Milk, Lemon Leaf, Tomato, Mushroom, Thai Pepper, Thai seasoning, cup of Jasmine Rice",
     image: "./images/tomKha.webp",
     alt: "Tom Kha image",
     category: "soups",
@@ -162,16 +162,25 @@ export const menuItems = [
     title: "Panang Curry",
     price: "$13.99 - $15.99",
     description:
-      "Chicken, Pork, Beef, Shrimp, or Tofu, Panang Curry, Coconut Milk, Red Bell Pepper, Lemon Leaf, and Thai Basil.",
+      "Chicken, Pork, Beef, Shrimp, or Tofu, Panang Curry, Coconut Milk, Red Bell Pepper, Lemon Leaf, and Thai Basil, cup of Jasmine Rice.",
     image: "./images/PanangCurry.jpg",
     alt: "Panang Curry image",
+    category: "soups",
+  },
+  {
+    title: "Yellow Thai Curry",
+    price: "$13.99 - $15.99",
+    description:
+      "Chicken, Pork, Beef, Shrimp, or Tofu, Yellow Curry, Coconut Milk, Onions, Carrots, Bell Peppers, Potato, cup of Jasmine Rice.",
+    image: "./images/YellowCurry.jpg",
+    alt: "Yellow Thai Curry image",
     category: "soups",
   },
   {
     title: "Kai Palo",
     price: "$13.99",
     description:
-      "Hard Boiled Eggs, Pork Belly, Five-spice powder, cinnamon, star anise, Garlic, Palm Sugar, soy sauce, and Thai seasonings.",
+      "Hard Boiled Eggs, Pork Belly, Five-spice powder, cinnamon, star anise, Garlic, Palm Sugar, soy sauce, and Thai seasonings, cup of Jasmine Rice.",
     image: "./images/BrownSoup.jpg",
     alt: "Kai Palo Soup Image",
     category: "soups",
@@ -200,15 +209,6 @@ export const menuItems = [
     description:
       "Shaved Papaya, Green Bean, Shrimp, Tomato, Lime, Salted Crab, Phak Krathin, Dark Fish Sauce. **Comes with Sticky Rice**",
     image: "./images/ThaiSomTum2.jpg",
-    alt: "Som Tum Image",
-    category: "soups",
-  },
-  {
-    title: "Som tum Pa",
-    price: "$15.99",
-    description:
-      "Shaved Papaya, snail, Pork Sausage, Green Bean, Water Spinach, Bamboo Shoots, Tomato, Lime, Rice Noodle, Salted Crab, Dark Fish Sauce. **Comes with Sticky Rice**",
-    image: "./images/ThaiSomTum3.jpg",
     alt: "Som Tum Image",
     category: "soups",
   },
@@ -255,15 +255,6 @@ export const menuItems = [
     category: "main",
   },
   {
-    title: "Crispy Spring Rolls",
-    price: "4 for $4.99",
-    description:
-      "Rice Paper Wrapping (deep-fried), Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with in-house-made dipping peanut sauce",
-    image: "./images/CrispySpringRoll.jpg",
-    alt: "Crispy Spring Rolls image",
-    category: "sides",
-  },
-  {
     title: "Pork Meat Skewers (Moo Ping)",
     price: "3 for $9.99",
     description: "Pork with Jasmine white rice, In-house Sauce, Seasoning",
@@ -281,11 +272,36 @@ export const menuItems = [
     category: "sides",
   },
   {
+    title: "Coconut Shrimp",
+    price: "4 for $6.50",
+    description:
+      "Shrimp, Coconut Flakes",
+    image: "./images/CoconutShrimp3.jpg",
+    alt: "Coconut Shrimp image",
+    category: "sides",
+  }
+  {
     title: "Deep Fried Tofu",
     price: "6 for $5.99",
     description: "Deep-fried Tofu with sweet-and-sour dipping sauce.",
     image: "./images/DeepfriedTofu.jpg",
     alt: "Deep Fried Tofu image",
+    category: "sides",
+  },
+  {
+    title: "Gyoza (Pot Stickers)",
+    price: "6 for $4.99",
+    description: "Chicken",
+    image: "./images/PotStickers.jpg",
+    alt: "Gyoza (Pot Stickers) image",
+    category: "sides",
+  },
+  {
+    title: "Combo Platter",
+    price: "$12.99",
+    description: "2 egg rolls, 2 spring rolls, 3 crab rangoons, 2 Coconut Shrimp, 1 Pork Meat Skewer",
+    image: "./images/ComboPlatter.jpg",
+    alt: "Combo Platter image",
     category: "sides",
   },
   {
