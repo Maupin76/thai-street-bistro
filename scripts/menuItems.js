@@ -274,12 +274,11 @@ export const menuItems = [
   {
     title: "Coconut Shrimp",
     price: "4 for $6.50",
-    description:
-      "Shrimp, Coconut Flakes",
+    description: "Shrimp, Coconut Flakes",
     image: "./images/CoconutShrimp3.jpg",
     alt: "Coconut Shrimp image",
     category: "sides",
-  }
+  },
   {
     title: "Deep Fried Tofu",
     price: "6 for $5.99",
@@ -299,7 +298,8 @@ export const menuItems = [
   {
     title: "Combo Platter",
     price: "$12.99",
-    description: "2 egg rolls, 2 spring rolls, 3 crab rangoons, 2 Coconut Shrimp, 1 Pork Meat Skewer",
+    description:
+      "2 egg rolls, 2 spring rolls, 3 crab rangoons, 2 Coconut Shrimp, 1 Pork Meat Skewer",
     image: "./images/ComboPlatter.jpg",
     alt: "Combo Platter image",
     category: "sides",
