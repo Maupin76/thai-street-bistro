@@ -222,7 +222,7 @@ export const menuItems = [
   },
   {
     title: "Egg Rolls",
-    price: "4 for $4.99",
+    price: "4 for $5.99",
     description:
       "Pork, Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with in-house-made dipping peanut sauce",
     image: "./images/EggRoll2.jpg",
@@ -231,7 +231,7 @@ export const menuItems = [
   },
   {
     title: "Spring Rolls",
-    price: "4 for $4.99",
+    price: "4 for $5.99",
     description:
       "Spring roll wrapping, Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with in-house-made dipping peanut sauce",
     image: "./images/SpringRoll2.jpg",
@@ -255,6 +255,51 @@ export const menuItems = [
     category: "main",
   },
   {
+    title: "Crispy Spring Rolls",
+    price: "4 for $5.99",
+    description:
+      "Rice Paper Wrapping (deep-fried), Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with in-house-made dipping peanut sauce",
+    image: "./images/CrispySpringRoll.jpg",
+    alt: "Crispy Spring Rolls image",
+    category: "sides",
+  },
+  {
+    title: "Avocado Fresh Rolls",
+    price: "2 for $5.99",
+    description:
+      "Rice paper, fresh avocado, lettuce, carrots, cucumbers, and herbs served with peanut sauce.",
+    image: "./images/AvocadoFreshRolls.jpg",
+    alt: "Avocado Fresh Rolls image",
+    category: "sides",
+  },
+  {
+    title: "Chicken Fresh Rolls",
+    price: "2 for $5.99",
+    description:
+      "Rice paper, cooked chicken, lettuce, carrots, cucumbers, and herbs served with peanut sauce.",
+    image: "./images/ChickenFreshRolls.jpg",
+    alt: "Chicken Fresh Rolls image",
+    category: "sides",
+  },
+  {
+    title: "Crab Fresh Rolls",
+    price: "2 for $5.99",
+    description:
+      "Rice paper, crab meat, lettuce, carrots, cucumbers, and herbs served with peanut sauce.",
+    image: "./images/CrabFreshRolls.jpg",
+    alt: "Crab Fresh Rolls image",
+    category: "sides",
+  },
+  {
+    title: "Shrimp Fresh Rolls",
+    price: "2 for $6.99",
+    description:
+      "Rice paper, fresh shrimp, lettuce, carrots, cucumbers, and herbs served with peanut sauce.",
+    image: "./images/ShrimpFreshRolls.jpg",
+    alt: "Shrimp Fresh Rolls image",
+    category: "sides",
+  },
+  {
     title: "Pork Meat Skewers (Moo Ping)",
     price: "3 for $9.99",
     description: "Pork with Jasmine white rice, In-house Sauce, Seasoning",
@@ -264,7 +309,7 @@ export const menuItems = [
   },
   {
     title: "Crab Rangoon",
-    price: "6 for $4.99",
+    price: "6 for $5.99",
     description:
       "Egg Roll Wrapping, Cream Cheese, and Imitation Crab with sweet-and-sour dipping sauce.",
     image: "./images/CrabRangoon.jpg",
@@ -329,6 +374,15 @@ export const menuItems = [
     category: "drinks",
   },
   {
+    title: "Cantaloupe Milk Tea",
+    price: "$4.99",
+    description:
+      "Cantaloupe Milk Tea, Whipped Cream on top, and Boba (optional).",
+    image: "./images/CantaloupeMilkTea.png",
+    alt: "Photo of Cantaloupe Milk Tea",
+    category: "drinks",
+  },
+  {
     title: "Thai Coffee",
     price: "$4.99",
     description: "Thai Coffee, Whipped Cream on top(optional).",
@@ -336,13 +390,4 @@ export const menuItems = [
     alt: "Photo of Thai Coffee",
     category: "drinks",
   },
-  // {
-  //   title: "",
-  //   price: "",
-  //   description:
-  //     "",
-  //   image: "",
-  //   alt: "",
-  //   category: "",
-  // },
 ];
