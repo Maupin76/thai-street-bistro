@@ -264,42 +264,6 @@ export const menuItems = [
     category: "sides",
   },
   {
-    title: "Avocado Fresh Rolls",
-    price: "2 for $5.99",
-    description:
-      "Rice paper, fresh avocado, lettuce, carrots, cucumbers, and herbs served with peanut sauce.",
-    image: "./images/AvocadoFreshRolls.jpg",
-    alt: "Avocado Fresh Rolls image",
-    category: "sides",
-  },
-  {
-    title: "Chicken Fresh Rolls",
-    price: "2 for $5.99",
-    description:
-      "Rice paper, cooked chicken, lettuce, carrots, cucumbers, and herbs served with peanut sauce.",
-    image: "./images/ChickenFreshRolls.jpg",
-    alt: "Chicken Fresh Rolls image",
-    category: "sides",
-  },
-  {
-    title: "Crab Fresh Rolls",
-    price: "2 for $5.99",
-    description:
-      "Rice paper, crab meat, lettuce, carrots, cucumbers, and herbs served with peanut sauce.",
-    image: "./images/CrabFreshRolls.jpg",
-    alt: "Crab Fresh Rolls image",
-    category: "sides",
-  },
-  {
-    title: "Shrimp Fresh Rolls",
-    price: "2 for $6.99",
-    description:
-      "Rice paper, fresh shrimp, lettuce, carrots, cucumbers, and herbs served with peanut sauce.",
-    image: "./images/ShrimpFreshRolls.jpg",
-    alt: "Shrimp Fresh Rolls image",
-    category: "sides",
-  },
-  {
     title: "Pork Meat Skewers (Moo Ping)",
     price: "3 for $9.99",
     description: "Pork with Jasmine white rice, In-house Sauce, Seasoning",

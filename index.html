@@ -15,7 +15,12 @@
     <meta name="author" content="Douglas A. Maupin" />
 
     <title>Thai Street Bistro by Siri</title>
-    <link rel="icon" href="./images/favicon.png" type="image/png" sizes="32x32" />
+    <link
+      rel="icon"
+      href="./images/favicon.png"
+      type="image/png"
+      sizes="32x32"
+    />
     <link rel="shortcut icon" href="./images/favicon.png" type="image/png" />
     <link rel="apple-touch-icon" href="./images/favicon.png" sizes="180x180" />
     <link rel="stylesheet" href="./pages/index.css" />
@@ -34,6 +39,45 @@
       href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
       rel="stylesheet"
     />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Thai Street Bistro by Siri",
+        "image": "https://thaistreetbistro.com/images/logo-thai-street-bistro.png",
+        "telephone": "+12089717946",
+        "url": "https://thaistreetbistro.com",
+        "servesCuisine": "Thai",
+        "priceRange": "$$",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "165 N 11th E St",
+          "addressLocality": "Mountain Home",
+          "addressRegion": "ID",
+          "postalCode": "83647",
+          "addressCountry": "US"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "11:00",
+            "closes": "20:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Saturday"],
+            "opens": "12:30",
+            "closes": "20:00"
+          }
+        ],
+        "menu": "https://thaistreetbistro.com/#menu",
+        "acceptsReservations": "False"
+      }
+    </script>
+
+    <link rel="canonical" href="https://thaistreetbistro.com/" />
   </head>
 
   <body>
@@ -185,33 +229,75 @@
       <section class="contact" id="contact">
         <div class="contact__info">
           <h2 class="contact__title">Visit Us</h2>
-          <p class="contact__subtitle">Thai Street Bistro by Siri</p>
-          <p class="contact__text">
-            Fresh Thai street food served in Mountain Home, Idaho.
-          </p>
-          <p class="contact__location">
-            Thai Street Bistro<br />
-            165 N 11th E St<br />
-            Mountain Home, ID 83647<br />
-            208.971.7946
-          </p>
 
-          <a class="contact__button" href="tel:12089717946">Call Us</a>
+          <div class="contact__details">
+            <!-- Left Column: Address & Call Button -->
+            <div class="contact__column">
+              <p class="contact__subtitle">Thai Street Bistro by Siri</p>
+              <p class="contact__text">
+                Fresh Thai street food served in Mountain Home, Idaho.
+              </p>
+              <p class="contact__location">
+                Thai Street Bistro<br />
+                165 N 11th E St<br />
+                Mountain Home, ID 83647<br />
+                208.971.7946
+              </p>
 
-          <div class="contact__socials">
-            <a
-              class="contact__social-link"
-              href="https://www.instagram.com/siristhaistreetbistro/"
-              target="_blank"
-              rel="noopener"
-              >Instagram</a
-            >
-            <a
-              class="contact__social-link"
-              href="#"
-              aria-label="Facebook page will be updated soon"
-              >Facebook coming soon</a
-            >
+              <a class="contact__button" href="tel:12089717946">Call Us</a>
+
+              <div class="contact__socials">
+                <a
+                  class="contact__social-link"
+                  href="https://www.instagram.com/siristhaistreetbistro/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Instagram</a
+                >
+                <a
+                  class="contact__social-link"
+                  href="https://www.facebook.com/thaistreetbistro/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Facebook</a
+                >
+              </div>
+            </div>
+
+            <!-- Right Column: Business Hours -->
+            <div class="contact__column contact__hours">
+              <p class="contact__subtitle">Hours of Operation</p>
+              <ul class="contact__hours-list">
+                <li class="contact__hours-item">
+                  <span class="contact__day">Monday</span>
+                  <span class="contact__time">Closed</span>
+                </li>
+                <li class="contact__hours-item">
+                  <span class="contact__day">Tuesday</span>
+                  <span class="contact__time">11:00 AM - 8:00 PM</span>
+                </li>
+                <li class="contact__hours-item">
+                  <span class="contact__day">Wednesday</span>
+                  <span class="contact__time">11:00 AM - 8:00 PM</span>
+                </li>
+                <li class="contact__hours-item">
+                  <span class="contact__day">Thursday</span>
+                  <span class="contact__time">11:00 AM - 8:00 PM</span>
+                </li>
+                <li class="contact__hours-item">
+                  <span class="contact__day">Friday</span>
+                  <span class="contact__time">11:00 AM - 8:00 PM</span>
+                </li>
+                <li class="contact__hours-item">
+                  <span class="contact__day">Saturday</span>
+                  <span class="contact__time">12:30 AM - 8:00 PM</span>
+                </li>
+                <li class="contact__hours-item">
+                  <span class="contact__day">Sunday</span>
+                  <span class="contact__time">Closed</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
