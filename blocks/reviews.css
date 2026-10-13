@@ -1,0 +1,82 @@
+.reviews {
+  background-color: var(--burgundy);
+  color: var(--cream);
+  padding: 80px 7%;
+  text-align: center;
+}
+
+.reviews__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.reviews__title {
+  margin: 0 0 8px;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.reviews__subtitle {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  margin-bottom: 48px;
+  opacity: 0.9;
+}
+
+.reviews__grid {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.reviews__card {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  border-radius: 8px;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.reviews__stars {
+  color: var(--gold);
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.reviews__text {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  font-style: italic;
+  margin: 0 0 20px;
+}
+
+.reviews__author {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 16px;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .reviews {
+    padding: 56px 5%;
+  }
+
+  .reviews__grid {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .reviews__title {
+    font-size: 36px;
+  }
+}
