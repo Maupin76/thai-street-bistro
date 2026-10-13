@@ -350,6 +350,42 @@ export const menuItems = [
     category: "sides",
   },
   {
+    title: "Avocado Fresh Rolls",
+    price: "$5.99",
+    description:
+      "Avocado, Purple cabbage, cucumber, carrot, lettuce, rice paper, cilantro. ***Comes with Peanut sauce, or Peanut Creme Salad Sauce.***",
+    image: "./images/AvocadoFreshRolls.jpg",
+    alt: "Avocado Fresh Rolls image",
+    category: "sides",
+  },
+  {
+    title: "Shrimp Fresh Rolls",
+    price: "$6.99",
+    description:
+      "Shrimp, Purple cabbage, cucumber, carrot, lettuce, rice paper, cilantro. ***Comes with Peanut sauce, or Peanut Creme Salad Sauce.***",
+    image: "./images/ShrimpFreshRolls.jpg",
+    alt: "Shrimp Fresh Rolls image",
+    category: "sides",
+  },
+  {
+    title: "Crab Fresh Rolls",
+    price: "$5.99",
+    description:
+      "Crab, Purple cabbage, cucumber, carrot, lettuce, rice paper, cilantro. ***Comes with Peanut sauce, or Peanut Creme Salad Sauce.***",
+    image: "./images/CrabFreshRolls.jpg",
+    alt: "Crab Fresh Rolls image",
+    category: "sides",
+  },
+  {
+    title: "Chicken Fresh Rolls",
+    price: "$5.99",
+    description:
+      "Chicken, Purple cabbage, cucumber, carrot, lettuce, rice paper, cilantro. ***Comes with Peanut sauce, or Peanut Creme Salad Sauce.***",
+    image: "./images/ChickenFreshRolls.jpg",
+    alt: "Chicken Fresh Rolls image",
+    category: "sides",
+  },
+  {
     title: "Thai Tea",
     price: "$4.99",
     description: "Thai Tea, Whipped Cream on top, and Boba (optional).",
@@ -390,4 +426,22 @@ export const menuItems = [
     alt: "Photo of Thai Coffee",
     category: "drinks",
   },
+  {
+    title: "Cantaloupe Milk Tea",
+    price: "$4.99",
+    description:
+      "Cantaloupe Milk Tea, Whipped Cream on top, and Boba (optional).",
+    image: "./images/CantaloupeMilkTea.png",
+    alt: "Photo of Cantaloupe Milk Tea",
+    category: "drinks",
+  },
+  // {
+  //   title: "",
+  //   price: "",
+  //   description:
+  //     "",
+  //   image: "",
+  //   alt: "",
+  //   category: "",
+  // },
 ];
