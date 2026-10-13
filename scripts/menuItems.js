@@ -426,15 +426,6 @@ export const menuItems = [
     alt: "Photo of Thai Coffee",
     category: "drinks",
   },
-  {
-    title: "Cantaloupe Milk Tea",
-    price: "$4.99",
-    description:
-      "Cantaloupe Milk Tea, Whipped Cream on top, and Boba (optional).",
-    image: "./images/CantaloupeMilkTea.png",
-    alt: "Photo of Cantaloupe Milk Tea",
-    category: "drinks",
-  },
   // {
   //   title: "",
   //   price: "",
