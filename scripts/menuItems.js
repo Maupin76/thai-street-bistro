@@ -216,7 +216,7 @@ export const menuItems = [
     title: "Sticky Rice with Mango",
     price: "$7.99",
     description: "Sticky Rice, Sweetened Coconut Milk, Sesame Seeds, Mango",
-    image: "./images/StickyRiceMango.jpg",
+    image: "./images/Mango_Sticky_Rice.jpg",
     alt: "Sticky Rice with Mango Image",
     category: "sides",
   },
