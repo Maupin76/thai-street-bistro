@@ -71,7 +71,9 @@
   border: 1px solid rgba(91, 15, 22, 0.14);
   border-radius: 14px;
   box-shadow: 0 16px 36px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   cursor: pointer;
 }
 
@@ -82,6 +84,7 @@
 
 .menu__image {
   width: 100%;
+  height: auto;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 50%;
