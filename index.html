@@ -14,6 +14,34 @@
     />
     <meta name="author" content="Douglas A. Maupin" />
 
+    <!-- Open Graph & Social Meta Tags -->
+    <meta
+      property="og:title"
+      content="Thai Street Bistro by Siri | Authentic Thai in Mountain Home, ID"
+    />
+    <meta
+      property="og:description"
+      content="Fresh ingredients, bold flavors, and family recipes crafted daily by Chef Siri in Mountain Home, Idaho."
+    />
+    <meta
+      property="og:image"
+      content="https://thaistreetbistro.com/images/logo-thai-street-bistro.png"
+    />
+    <meta property="og:url" content="https://thaistreetbistro.com/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Thai Street Bistro by Siri" />
+    <meta
+      name="twitter:description"
+      content="Authentic Thai street food in Mountain Home, Idaho."
+    />
+    <meta
+      name="twitter:image"
+      content="https://thaistreetbistro.com/images/logo-thai-street-bistro.png"
+    />
+
     <title>Thai Street Bistro by Siri</title>
     <link
       rel="icon"
@@ -117,13 +145,16 @@
             <a class="nav__link" href="#catering">Catering</a>
           </li>
           <li class="nav__item">
+            <a class="nav__link" href="#faq">FAQ</a>
+          </li>
+          <li class="nav__item">
             <a class="nav__link" href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
     </div>
 
-    <main>
+    <main id="main-content">
       <section class="hero" id="home">
         <div class="hero__content">
           <img
@@ -132,7 +163,10 @@
             alt="Thai Street Bistro by Siri"
           />
           <p class="hero__location">Mountain Home, Idaho</p>
-          <h1 class="hero__heading">Authentic Thai Street Food</h1>
+          <!-- Localized H1 Added -->
+          <h1 class="hero__heading">
+            Authentic Thai Street Food in Mountain Home, ID
+          </h1>
           <p class="hero__subtext">
             Fresh ingredients, bold flavors, and family recipes crafted daily by
             Siri.
@@ -227,6 +261,52 @@
               details.
             </p>
           </div>
+        </div>
+      </section>
+
+      <!-- New FAQ Section Added for SEO -->
+      <section
+        class="faq"
+        id="faq"
+        style="padding: 40px 20px; max-width: 900px; margin: 0 auto"
+      >
+        <h2 style="text-align: center; margin-bottom: 24px">
+          Frequently Asked Questions
+        </h2>
+        <div style="margin-bottom: 20px">
+          <h3 style="font-size: 1.1rem; margin-bottom: 6px">
+            Where is Thai Street Bistro located?
+          </h3>
+          <p>We are located at 165 N 11th E St, Mountain Home, ID 83647.</p>
+        </div>
+        <div style="margin-bottom: 20px">
+          <h3 style="font-size: 1.1rem; margin-bottom: 6px">
+            Do you offer online ordering and pickup?
+          </h3>
+          <p>
+            Yes! You can order directly through our online ordering system for
+            fast pickup. Ordering direct saves you money compared to third-party
+            delivery apps.
+          </p>
+        </div>
+        <div style="margin-bottom: 20px">
+          <h3 style="font-size: 1.1rem; margin-bottom: 6px">
+            What are your operating hours?
+          </h3>
+          <p>
+            We are open Tuesday through Friday from 11:00 AM to 8:00 PM, and
+            Saturdays from 12:30 PM to 8:00 PM. We are closed on Sundays and
+            Mondays.
+          </p>
+        </div>
+        <div style="margin-bottom: 20px">
+          <h3 style="font-size: 1.1rem; margin-bottom: 6px">
+            Do you provide catering for events and business lunches?
+          </h3>
+          <p>
+            Yes, we offer catering for local gatherings, private events, and
+            business lunches. Contact us directly for details and availability.
+          </p>
         </div>
       </section>
 
@@ -346,7 +426,8 @@
                 </li>
                 <li class="contact__hours-item">
                   <span class="contact__day">Saturday</span>
-                  <span class="contact__time">12:30 AM - 8:00 PM</span>
+                  <!-- Corrected from 12:30 AM to 12:30 PM -->
+                  <span class="contact__time">12:30 PM - 8:00 PM</span>
                 </li>
                 <li class="contact__hours-item">
                   <span class="contact__day">Sunday</span>
