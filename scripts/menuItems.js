@@ -187,7 +187,7 @@ export const menuItems = [
   },
   {
     title: "Thai Papaya Salad (Som Tum)",
-    price: "$9.99",
+    price: "$12.99",
     description:
       "Shaved Papaya, Tomato, Green Bean, Carrot, Peanut, Dried Baby Shrimp, Fish Sauce, and Lime. **Comes with Sticky Rice**",
     image: "./images/SomTum1.jpg",
@@ -196,7 +196,7 @@ export const menuItems = [
   },
   {
     title: "Som Tum Poo (Papaya Salad with Salted Crab)",
-    price: "$10.99",
+    price: "$12.99",
     description:
       "Shaved Papaya, Green Bean, Tomato, Lime, Salted Crab, Dark Fish Sauce. **Comes with Sticky Rice**",
     image: "./images/ThaiSomTum.jpg",
@@ -256,7 +256,7 @@ export const menuItems = [
   },
   {
     title: "Crispy Spring Rolls",
-    price: "4 for $5.99",
+    price: "4 for $6.99",
     description:
       "Rice Paper Wrapping (deep-fried), Carrots, cabbage, vermicelli noodles, Thai seasonings. ***Comes with in-house-made dipping peanut sauce",
     image: "./images/CrispySpringRoll.jpg",
