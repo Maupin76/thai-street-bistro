@@ -21,7 +21,7 @@ export const menuItems = [
     price: "$12.99 - $14.99",
     description:
       "Chicken, Pork, Beef, Shrimp, or Tofu, Green Beans, Red Thai Curry",
-    image: "./images/ThaiCurryRedBlackBowl.jpg",
+    image: "./images/ThaiCurryBlackBowl.jpg",
     alt: "Thai Curry image",
     category: "main",
   },
