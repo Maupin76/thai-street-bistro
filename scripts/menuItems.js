@@ -21,7 +21,7 @@ export const menuItems = [
     price: "$12.99 - $14.99",
     description:
       "Chicken, Pork, Beef, Shrimp, or Tofu, Green Beans, Red Thai Curry",
-    image: "./images/ThaiCurryBlackBowl.jpg",
+    image: "./images/ThaiCurryRedBlackBowl.jpg",
     alt: "Thai Curry image",
     category: "main",
   },
@@ -56,7 +56,7 @@ export const menuItems = [
     price: "$12.99 - $14.99",
     description:
       "Chicken, Pork, Beef, Shrimp, or Tofu, Pad Thai Noodles, Egg, Green Onion, Tofu, In-house Made Sauce (Peanuts, Lime wedge, and Spicy flakes are separated for your preference)",
-    image: "./images/ChickenPadThaiBlackBowl.jpg",
+    image: "./images/PadThaiBlackBowl.jpg",
     alt: "Chicken Pad Thai image",
     category: "main",
   },
@@ -74,7 +74,7 @@ export const menuItems = [
     price: "$12.99 - $14.99",
     description:
       "Chicken, Pork, Beef, Shrimp, or Tofu, Snow Peas, Carrots, Cauliflower, Mushrooms, Cabbage, Soba Noodles, and Teriyaki Sauce.",
-    image: "./images/ChickenTeriyakiStirFryBlackBowl.jpg",
+    image: "./images/TeriyakiStirFryBlackBowl.jpg",
     alt: "Chicken Teriyaki Stir-fry image",
     category: "main",
   },
@@ -91,7 +91,7 @@ export const menuItems = [
     price: "$12.99",
     description:
       "Snow Peas, Carrots, Cauliflower, Mushrooms, Seasoning, and Thai Seasoning.",
-    image: "./images/vegitarianStriFryBlackBowl.jpg",
+    image: "./images/VegetarianStirFryBlackBowl.jpg",
     alt: "Vegetarian Stir-Fry image",
     category: "main",
   },
@@ -118,7 +118,7 @@ export const menuItems = [
     price: "$12.99 - $14.99",
     description:
       "Sliced Meat, Sliced Shallots, Green Onion, Cilantro, Ground Roasted Rice, Thai Seasonings.",
-    image: "./images/LaapNamtokBlackBowl.jpg",
+    image: "./images/LaapNamTokBlackBowl.jpg",
     alt: "Laab NamTok image",
     category: "main",
   },
@@ -250,7 +250,7 @@ export const menuItems = [
     title: "Shrimp Fried Rice",
     price: "$14.99",
     description: "Shrimp, Rice, Egg, Carrots, Green Onions, Thai Seasoning.",
-    image: "./images/shrimpFriedRiceBlackBowl.jpg",
+    image: "./images/ShrimpFriedRiceBlackBowl.jpg",
     alt: "Shrimp Fried Rice image",
     category: "main",
   },
