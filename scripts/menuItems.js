@@ -3,7 +3,7 @@ export const menuItems = [
     title: '"Crispy Pork" Pad Krapow',
     price: "$14.99",
     description: "Fried Pork Belly, Onions, Gai Lan, Thai Sauces",
-    image: "./images/CrispyPork.webp",
+    image: "./images/CrispyPorkBlackBowl.jpg",
     alt: "Crispy Pork Pad Krapow",
     category: "main",
   },
@@ -12,7 +12,7 @@ export const menuItems = [
     price: "$12.99 - $14.99",
     description:
       "Chicken, Pork, Beef, Shrimp, or Tofu, yellow onion, Green Beans, Thai basil, Jalapeno pepper, Thai Seasonings",
-    image: "./images/padKrapow.webp",
+    image: "./images/PadKrapowBlackBowl.jpg",
     alt: "Pad Krapow image",
     category: "main",
   },
@@ -21,7 +21,7 @@ export const menuItems = [
     price: "$12.99 - $14.99",
     description:
       "Chicken, Pork, Beef, Shrimp, or Tofu, Green Beans, Red Thai Curry",
-    image: "./images/thaiCurry.webp",
+    image: "./images/ThaiCurryBlackBowl.jpg",
     alt: "Thai Curry image",
     category: "main",
   },
@@ -29,7 +29,7 @@ export const menuItems = [
     title: "Zucchini Chicken",
     price: "$12.99",
     description: "Chicken, Bell Pepper, Zucchini, Peanuts, Sauces",
-    image: "./images/zucchiniChicken.webp",
+    image: "./images/ZucchiniChickenBlackBowl.jpg",
     alt: "Zucchini Chicken image",
     category: "main",
   },
@@ -38,7 +38,7 @@ export const menuItems = [
     price: "$12.99",
     description:
       "Chicken (Breaded), Bell Pepper, Green Onions, Red Onions, Cashews, Thai Seasoning.",
-    image: "./images/thaiCashewChicken.webp",
+    image: "./images/ThaiCashewChickenBlackBowl.jpg",
     alt: "Thai Cashew Chicken image",
     category: "main",
   },
@@ -47,7 +47,7 @@ export const menuItems = [
     price: "$12.99",
     description:
       "Chicken, Bell Pepper, Onion, Pineapple, Sweet Thai Chili Sauce.",
-    image: "./images/pineappleChicken.webp",
+    image: "./images/PineappleChickenBlackBowl.jpg",
     alt: "Pineapple Chicken image",
     category: "main",
   },
@@ -56,7 +56,7 @@ export const menuItems = [
     price: "$12.99 - $14.99",
     description:
       "Chicken, Pork, Beef, Shrimp, or Tofu, Pad Thai Noodles, Egg, Green Onion, Tofu, In-house Made Sauce (Peanuts, Lime wedge, and Spicy flakes are separated for your preference)",
-    image: "./images/chickenPadThai.webp",
+    image: "./images/ChickenPadThaiBlackBowl.jpg",
     alt: "Chicken Pad Thai image",
     category: "main",
   },
@@ -65,7 +65,7 @@ export const menuItems = [
     price: "$12.99 - $14.99",
     description:
       "Chicken, Pork, Beef, Shrimp, or Tofu, Pad See Eew Noodles, Green Onion, Gai Lan, Thai Sauce, and seasoning",
-    image: "./images/PadSeeEew.jpg",
+    image: "./images/PadSeeEewBlackBowl.jpg",
     alt: "Pad See Eew",
     category: "main",
   },
@@ -74,7 +74,7 @@ export const menuItems = [
     price: "$12.99 - $14.99",
     description:
       "Chicken, Pork, Beef, Shrimp, or Tofu, Snow Peas, Carrots, Cauliflower, Mushrooms, Cabbage, Soba Noodles, and Teriyaki Sauce.",
-    image: "./images/ChickenTeriyaki.webp",
+    image: "./images/ChickenTeriyakiStirFryBlackBowl.jpg",
     alt: "Chicken Teriyaki Stir-fry image",
     category: "main",
   },
@@ -82,7 +82,7 @@ export const menuItems = [
     title: "Shrimp & Broccoli",
     price: "$14.99",
     description: "Shrimp, Broccoli, Carrots, Seasoning, and Thai Seasoning.",
-    image: "./images/shrimpandbroccoli.webp",
+    image: "./images/ShrimpNBroccoliBlackBowl.jpg",
     alt: "Shrimp & Broccoli image",
     category: "main",
   },
@@ -91,7 +91,7 @@ export const menuItems = [
     price: "$12.99",
     description:
       "Snow Peas, Carrots, Cauliflower, Mushrooms, Seasoning, and Thai Seasoning.",
-    image: "./images/vegitarian.webp",
+    image: "./images/vegitarianStriFryBlackBowl.jpg",
     alt: "Vegetarian Stir-Fry image",
     category: "main",
   },
@@ -100,7 +100,7 @@ export const menuItems = [
     price: "$12.99 - $14.99",
     description:
       "Chicken, Pork, Beef, Shrimp, or Tofu, Wide Noodles, Gai Lan, Carrots, Pickled Kachai, Yellow Onion, Jalapeno, Thai Seasoning.",
-    image: "./images/Drunken Noodle.jpg",
+    image: "./images/DrunkenNoodleBlackBowl.jpg",
     alt: "Drunken Noodle image",
     category: "main",
   },
@@ -109,7 +109,7 @@ export const menuItems = [
     price: "$12.99 - $14.99",
     description:
       "Chicken, Pork, Beef, Shrimp, or Tofu, Thai Basil, Red Bell Peppers, Onions, Green Beans, Thai Seasoning.",
-    image: "./images/SpicyBasil.jpg",
+    image: "./images/SpicyBasilBlackBowl.jpg",
     alt: "Spicy Basil image",
     category: "main",
   },
@@ -118,7 +118,7 @@ export const menuItems = [
     price: "$12.99 - $14.99",
     description:
       "Sliced Meat, Sliced Shallots, Green Onion, Cilantro, Ground Roasted Rice, Thai Seasonings.",
-    image: "./images/LaapNamtok.jpg",
+    image: "./images/LaapNamtokBlackBowl.jpg",
     alt: "Laab NamTok image",
     category: "main",
   },
@@ -127,7 +127,7 @@ export const menuItems = [
     price: "$13.99",
     description:
       "Chicken Broth Boiled Rice, Chicken, Ginger and garlic sauce, Thai Seasoning, and Sauces.",
-    image: "./images/KhaoMunGai.jpg",
+    image: "./images/KhaoMunGaiBlackBowl.jpg",
     alt: "Khao Mun Gai image",
     category: "main",
   },
@@ -136,7 +136,7 @@ export const menuItems = [
     price: "$13.99 - $15.99",
     description:
       "Chicken, Shrimp or Tofu, Coconut Milk, Tomato, Lemon leaf, Thai Pepper, cup of Jasmine Rice",
-    image: "./images/tomYum.webp",
+    image: "./images/TomYumBlackBowl.jpg",
     alt: "Tom Yum Soup",
     category: "soups",
   },
@@ -145,7 +145,7 @@ export const menuItems = [
     price: "$13.99 - $15.99",
     description:
       "Chicken, Pork, Beef, Shrimp, or Tofu, Green Curry, Coconut Milk, Thai Basil, Bell Peppers",
-    image: "./images/greenCurry.webp",
+    image: "./images/GreenThaiCurryBlackBowl.jpg",
     alt: "Green Thai Curry image",
     category: "soups",
   },
@@ -154,7 +154,7 @@ export const menuItems = [
     price: "$13.99",
     description:
       "Chicken, Coconut Milk, Lemon Leaf, Tomato, Mushroom, Thai Pepper, Thai seasoning, cup of Jasmine Rice",
-    image: "./images/tomKha.webp",
+    image: "./images/TomKhaGaiBlackBowl.jpg",
     alt: "Tom Kha image",
     category: "soups",
   },
@@ -163,7 +163,7 @@ export const menuItems = [
     price: "$13.99 - $15.99",
     description:
       "Chicken, Pork, Beef, Shrimp, or Tofu, Panang Curry, Coconut Milk, Red Bell Pepper, Lemon Leaf, and Thai Basil, cup of Jasmine Rice.",
-    image: "./images/PanangCurry.jpg",
+    image: "./images/PanangCurryBlackBowl.jpg",
     alt: "Panang Curry image",
     category: "soups",
   },
@@ -172,7 +172,7 @@ export const menuItems = [
     price: "$13.99 - $15.99",
     description:
       "Chicken, Pork, Beef, Shrimp, or Tofu, Yellow Curry, Coconut Milk, Onions, Carrots, Bell Peppers, Potato, cup of Jasmine Rice.",
-    image: "./images/YellowCurry.jpg",
+    image: "./images/YellowThaiCurryBlackBowl.jpg",
     alt: "Yellow Thai Curry image",
     category: "soups",
   },
@@ -181,7 +181,7 @@ export const menuItems = [
     price: "$13.99",
     description:
       "Hard Boiled Eggs, Pork Belly, Five-spice powder, cinnamon, star anise, Garlic, Palm Sugar, soy sauce, and Thai seasonings, cup of Jasmine Rice.",
-    image: "./images/BrownSoup.jpg",
+    image: "./images/KaiPaloBlackBowl.jpg",
     alt: "Kai Palo Soup Image",
     category: "soups",
   },
@@ -242,7 +242,7 @@ export const menuItems = [
     title: "Chicken Fried Rice",
     price: "$12.99",
     description: "Chicken, Rice, Egg, Carrots, Green Onions, Thai Seasoning.",
-    image: "./images/ChickenFriedRice.webp",
+    image: "./images/ChickenFriedRiceBlackBowl.jpg",
     alt: "Chicken Fried Rice image",
     category: "main",
   },
@@ -250,7 +250,7 @@ export const menuItems = [
     title: "Shrimp Fried Rice",
     price: "$14.99",
     description: "Shrimp, Rice, Egg, Carrots, Green Onions, Thai Seasoning.",
-    image: "./images/shrimpFriedRice.webp",
+    image: "./images/shrimpFriedRiceBlackBowl.jpg",
     alt: "Shrimp Fried Rice image",
     category: "main",
   },
